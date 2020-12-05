@@ -1,0 +1,259 @@
+body {
+	background-color: lightblue;
+	font-size: 20px;
+ }
+
+#navbar {
+  border-radius: 10px;
+  border-bottom: 1px solid #eee;
+  box-shadow: 50px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 10px 5px rgba(500,0,0,0.50);
+  height: 60px;
+  margin: 10px 30px;
+}
+
+#menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    margin: 0;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 60px;
+    border-radius: 10px;
+}
+
+
+#menu li a:hover {
+  background-color: rgb(231, 231, 231);
+
+}
+
+.red {
+	text-align: center;
+	background-color: red;
+	height: 100px;
+	color: white;
+	box-shadow: 0 50px 70px 15px rgba(0,500,0,0.50);
+	border-radius: 7px;
+	margin: 30px;
+}
+
+.red h1 {
+  margin: 0;
+}
+
+.sqao {
+  display: inline-block;
+  height:60px;
+  width: 60px;
+  transform: rotate(45deg);
+  background-color: darkgreen;
+  
+}
+
+.q12345 {
+	margin: -20px 0 20px 0;
+	text-align: center;
+}
+
+.pi {
+  border: 7px solid gold;
+  background-color: cyan;
+  color: coral;
+  height: 100%;
+  overflow: hidden;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#pi-bottom {
+  display: inline;
+  text-align: center;
+  line-height: 9px;
+  color: #e0e038;
+}
+
+#pi-bottom p {
+  font-size: 20px;
+}
+
+#pi-bottom img {
+	margin-top: -35px;
+	margin-left: 10px;
+}
+
+.said {
+ z-index: 2;
+ display: block;
+}
+
+.iframe0 {
+	padding:20px;
+}
+
+.iframe {
+  line-height: 15px;
+  background-color: beige;
+  margin: 20px auto 20px auto;
+  padding: 5px;
+  width: 50%;
+  border-top : solid #ffffff 15px;
+  border-left: solid #eeeeee 15px;
+  border-right: solid #dddddd 15px;
+  border-bottom : solid #cccccc 15px;
+}
+
+.iframe2 {
+  border: solid 5px lightgray;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.jawjaja {
+  background-color: yellow;
+  padding: 20px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: -.1em -.1em .15em #ffffff,
+  .1em .1em .15em #001199; 
+  text-shadow: white 0px 0px 0px,
+   rgb(255, 12, 51) 5px -5px 5px,
+   rgb(255, 221, 51) 2px -10px 6px, 
+   rgb(255,136,0) -2px -15px 11px, 
+   rgb(225, 34, 0) 0 0px 5px;
+}
+
+.grid {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 10px
+}
+
+.grid2 {
+	width: 50%;
+	float: left;
+  padding: 10px 10px;
+}
+
+.tumi {
+	background-color: beige;
+	margin: 0;
+	border-top : solid #ffffff 10px;
+	border-left: solid #eeeeee 10px;
+	border-right: solid #dddddd 10px;
+	border-bottom : solid #cccccc 10px;
+}
+
+.grid2 img {
+	width: 100%
+}
+
+#santa::-webkit-scrollbar {
+	display:none;
+}
+
+#santa {
+	background-color: beige;
+	text-align: center;
+	display: block;
+	overflow: scroll;
+	height: 440px;
+	padding: 10px;
+	-ms-overflow-style: none;
+}
+
+.clearfix p {
+  margin: 0;
+}
+
+.collapsible {
+  background-color: beige;
+  color: tan;
+  cursor: pointer;
+  padding: 10px;
+  border-top : solid #ffffff 7px;
+  border-left: solid #eeeeee 7px;
+  border-right: solid #dddddd 7px;
+  border-bottom : solid #cccccc 7px;
+  outline: none;
+  margin: 10px 0 15px 0;;
+}
+
+button {
+  width: 100%;
+}
+
+.active, .collapsible:hover {
+  background-color: tan;
+  color: beige;
+}
+
+.collapsible:after {
+  content: '\002B';
+  float: right;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+	text-align: center;
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+	line-height: 30px;
+	border-top: solid saddlebrown 8px;
+	border-left: solid sienna 8px;
+	border-right: solid sienna 8px;
+	border-bottom: solid saddlebrown 8px;
+	border-radius: 10px;
+}
+
+.endbox {margin-top: 800px}
+
+.clearfix {
+	display: inline-block;
+	width: 100%;
+	border: dotted 1px white;
+}
+
+.clearfix p {
+	text-align: center;
+	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.grid2 {
+		width: 100%;;
+	}
+
+	.iframe {
+		width: 100%;
+	}
+}
